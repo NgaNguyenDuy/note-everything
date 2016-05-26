@@ -11,5 +11,5 @@ This will grab the image from desktop, starting with the upper-left corner at (x
     `ffmpeg -video_size 1024x768 -framerate 25 -f x11grab -i :0.0+100,200 -f pulse -ac 2 -i default /tmp/output.mkv`
 
 Todo:
-    []. Grab the region to screencast.
-    []. Allow select storage location.
+- [] Grab the region to screencast.
+- [] Allow select storage location.
