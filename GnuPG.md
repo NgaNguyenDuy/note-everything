@@ -10,6 +10,7 @@ public key to share to others, and private key for yourself. It will be saved
 in $HOME/.gnupg/
 
     - To create: 
+    
     `$ gpg --gen-key`
     - Export to file with ASCII format: `$ gpg --armor --export "your_id" >
     publickey.txt`
