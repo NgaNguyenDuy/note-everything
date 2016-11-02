@@ -9,9 +9,12 @@ using key pair: Public key and Private key
 public key to share to others, and private key for yourself. It will be saved
 in $HOME/.gnupg/
 
-    - To create: `$ gpg --gen-key`
-    - Export to file with ASCII format: `$ gpg --armor --export "your_id" >
-    publickey.txt`
+    - To create: 
+    
+    `$ gpg --gen-key`
+    - Export to file with ASCII format: 
+    
+    `$ gpg --armor --export "your_id" > publickey.txt`
     - You can distribute your public key by upload to `keyserver` or your
     index. To upload to keyserver, you can type: `$ gpg --send-keys 'your_id'
     --keyserver hkp://subkeys.pgp.net`. **Note**: Keyserver usally listen on
